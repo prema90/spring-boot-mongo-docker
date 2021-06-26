@@ -1,8 +1,8 @@
 # Config Map
-kind: ConfigMap 
+kind: ReplicationController
 apiVersion: v1 
 metadata:
-  name: springapp-configmap
+  name: springapp-rc
 data:
   # Configuration values can be set as key-value properties
   username: springapp
